@@ -36,7 +36,7 @@ def ping_host(host):
 
 
 def main():
-    # 提示用户输入网址
+    # 提示用户输入网址，例如www.163.com
     url = input("请输入网址: ").strip()
     
     # 使用 socket.getaddrinfo 获取 IP 地址
